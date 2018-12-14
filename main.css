@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+.slider {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: red;
+  overflow: hidden;
+}
+.capa {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(0vh);
+  transition: all 0.5s;
+ }
+ .capa-1 {
+  background: royalblue;
+ }
+ .capa-2 {
+  background: yellowgreen;
+ }
+ .capa-3 {
+  background: plum;
+ }
+ .capa-4 {
+  background: aquamarine;
+ }
+ .capa-5 {
+  background: yellow;
+ }
+ .to-top {
+   transform: translateY(100vh)
+ }
+ .to-bottom {
+  transform: translateY(-100vh)
+}
