@@ -23,22 +23,41 @@
  }
  .capa-1 {
   background: royalblue;
+  background-image: url(https://images.pexels.com/photos/712521/pexels-photo-712521.jpeg);
+  background-size:auto 100%; 
+  background-position: center;
  }
  .capa-2 {
   background: yellowgreen;
+  background-image: url(https://images.pexels.com/photos/712521/pexels-photo-712521.jpeg);
+  background-size:auto 100%; 
+  background-position: center;
  }
+
  .capa-3 {
   background: plum;
+  background-image: url(https://images.pexels.com/photos/712521/pexels-photo-712521.jpeg);
+  background-size:auto 100%; 
+  background-position: center;
  }
  .capa-4 {
   background: aquamarine;
+  background-image: url(https://images.pexels.com/photos/712521/pexels-photo-712521.jpeg);
+  background-size:auto 100%; 
+  background-position: center;
  }
  .capa-5 {
   background: yellow;
+  background-image: url(https://images.pexels.com/photos/712521/pexels-photo-712521.jpeg);
+  background-size:auto 100%; 
+  background-position: center;
  }
  .to-top {
    transform: translateY(100vh)
  }
  .to-bottom {
   transform: translateY(-100vh)
+}
+.bg-sz-110 {
+  background-size:auto 110%!important;
 }

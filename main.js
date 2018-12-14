@@ -1,7 +1,9 @@
 $(document).ready(function() {
   function toTop(lastChild,firstChild){
     console.log("top");
+    lastChild.removeClass("bg-sz-110");
     lastChild.addClass("to-bottom");
+    lastChild.prev().addClass("bg-sz-110");
     setTimeout(function() {
       lastChild.removeClass("to-bottom");
       lastChild.insertBefore(firstChild);
@@ -9,7 +11,9 @@ $(document).ready(function() {
   }
   function toBottom(lastChild,firstChild){
     // sube el ultimo y se pasa a la primera posicion
+    lastChild.removeClass("bg-sz-110");
     lastChild.addClass("to-top");
+    lastChild.prev().addClass("bg-sz-110");
     setTimeout(function() {
       lastChild.removeClass("to-top");
       lastChild.insertBefore(firstChild);
